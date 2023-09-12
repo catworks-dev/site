@@ -1,0 +1,35 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.landing .content {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.landing .logo {
+  position: relative;
+  width: 26vw;
+  height: 21vw;
+}
+
+.landing .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 8vw;
+  letter-spacing: 0;
+  line-height: normal;
+}
