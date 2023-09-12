@@ -12,7 +12,7 @@
 .landing .content {
   display: inline-flex;
   align-items: center;
-  gap: 40px;
+  gap: 3vw;
   position: relative;
   flex: 0 0 auto;
 }
@@ -29,7 +29,7 @@
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   color: #000000;
-  font-size: 8vw;
+  font-size: 10vw;
   letter-spacing: 0;
   line-height: normal;
 }
