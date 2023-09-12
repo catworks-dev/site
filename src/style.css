@@ -9,27 +9,15 @@
   background-color: #ffffff;
 }
 
-.landing .content {
-  display: inline-flex;
-  align-items: center;
-  gap: 3vw;
-  position: relative;
-  flex: 0 0 auto;
-}
-
 .landing .logo {
   position: relative;
-  width: 26vw;
+  width: 70vw;
   height: 21vw;
+  transition: 1s;
 }
 
-.landing .text-wrapper {
-  position: relative;
-  width: fit-content;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-  color: #000000;
-  font-size: 10vw;
-  letter-spacing: 0;
-  line-height: normal;
+.landing .logo:hover {
+  width: 80vw;
+  height: 24vw;
+  transition: 1s;
 }
